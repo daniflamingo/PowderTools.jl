@@ -70,7 +70,6 @@ Dirac and Chern magnons on the honeycomb lattice (`topology.jl`).
 | `two_magnon_jdos(swt, q, energies; fwhm)` | Two-magnon joint density of states |
 | `two_magnon_edges(swt, q)` | Lower and upper edges of the two-magnon continuum |
 | `march_dollase(r; axis)`, `fibonacci_sphere(n)` | Preferred orientation weight, sphere sampling |
-| `form_factor_ce3(Q)` | Ce³⁺ magnetic form factor (any function of \|Q\| or Sunny `FormFactor` also works) |
 | `PowderMap` | Intensity on a (\|Q\|, E) grid; maps can be added and scaled |
 | `make_cut(q, E, I; dir, center, width, bins)` | 1D cut through scattered data or a `PowderMap` |
 | `PowderData(Q, E, I; Qrange, Erange)` | Scattered data with a fit window |
